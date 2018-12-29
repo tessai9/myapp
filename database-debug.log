@@ -1,0 +1,7 @@
+16:18:53.456 [NamespaceSystem-akka.actor.default-dispatcher-2] INFO akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+16:18:53.814 [main] INFO com.firebase.server.forge.App$ - Listening on port 9000
+16:19:24.613 [Thread-2] INFO com.firebase.server.forge.App$ - Attempting graceful shutdown.
+16:19:24.617 [NamespaceSystem-akka.actor.default-dispatcher-4] INFO akka.actor.CoordinatedShutdown - Starting coordinated shutdown from JVM shutdown hook
+16:19:24.650 [NamespaceSystem-akka.actor.default-dispatcher-8] INFO com.firebase.core.namespace.NamespaceActor - Stopping namespace actor for fake-server
+16:19:24.653 [NamespaceSystem-akka.actor.default-dispatcher-8] INFO com.firebase.core.namespace.NamespaceActor - Gauges removed for fake-server
+16:19:24.683 [Thread-2] INFO com.firebase.server.forge.App$ - Graceful shutdown complete.
