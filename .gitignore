@@ -10,6 +10,7 @@ selenium-debug.log
 /config/firebase.env.js
 firebase.json
 .firebaserc
+package.json
 
 # Editor directories and files
 .idea
