@@ -1,14 +1,14 @@
 <template>
-  <div>
+  <div class='container-fluid'>
     <div class='card' style='width: 18rem; display:inline-block;' v-for='item in vtubersList' :key='item.name'>
       <img class='card-img-top' :src='item.image'>
       <div class='card-body'>
         <h5 class='card-title'>{{item.name}}</h5>
-        <p class='card-text'>.....</p>
+        <!-- <p class='card-text'>.....</p> -->
         <a :href='item.homepage' class='btn btn-primary'>Youtubeチャンネルへ</a>
       </div>
-    </div>
-  </div>
+    </div>  <!-- end of card -->
+  </div>  <!-- end of container -->
 </template>
 <script>
 import firebase from 'firebase'
