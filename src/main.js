@@ -6,6 +6,19 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+<<<<<<< Updated upstream
+=======
+var getConfigInfo = require('./firebase.env')
+var firebaseConfig = {
+  apiKey: getConfigInfo.firebaseInit.apiKey,
+  authDomain: getConfigInfo.firebaseInit.authDomain,
+  databaseURL: getConfigInfo.firebaseInit.databaseURL,
+  projectId: getConfigInfo.firebaseInit.projectId,
+  storageBucket: getConfigInfo.firebaseInit.storageBucket,
+  messagingSenderId: getConfigInfo.firebaseInit.messagingSenderId
+}
+firebase.initializeApp(firebaseConfig)
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
