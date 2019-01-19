@@ -6,7 +6,6 @@ import router from './router'
 import firebase from 'firebase'
 
 Vue.config.productionTip = false
-
 var getConfigInfo = require('./firebase.env')
 var firebaseConfig = {
   apiKey: getConfigInfo.firebaseInit.apiKey,
