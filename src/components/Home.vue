@@ -5,7 +5,9 @@
       <div class='card-body'>
         <h5 class='card-title'>{{item.name}}</h5>
         <!-- <p class='card-text'>.....</p> -->
-        <a :href='item.homepage' class='btn btn-primary'>Youtubeチャンネルへ</a>
+        <a :href='item.channel' target="_blank"><ion-icon name="logo-youtube" style="font-size: 50px;"></ion-icon></a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a :href='item.homepage' target="_blank"><ion-icon name="home" style="font-size: 50px;"></ion-icon></a>
       </div>
     </div>  <!-- end of card -->
   </div>  <!-- end of container -->
