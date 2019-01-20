@@ -30,12 +30,12 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 # Using firebase
-add config/firebase.env.js
+add src/firebase.env.js
 ```javascript:firebase.env.js
 'use strict'
 
 module.exports = {
-	firebase: {
+	firebaseInit: {
 		apiKey: "...",
 		authDomain: "...",
 		databaseURL: "...",
