@@ -1,6 +1,7 @@
 # myapp
 
-> A Vue.js project
+> 個人的に推してるvtuber一覧
+> Firebase + Vue.jsのテストサイト
 
 ## Build Setup
 
@@ -45,3 +46,20 @@ module.exports = {
 	}
 }
 ```
+
+# deploy
+## overview of the way to deploy my project
+```bash
+# login to firebase
+firebase login
+
+# initialize
+# setting Databse & Hosting
+firebase init
+
+# deploy
+firebase deploy
+```
+
+## Notice
+When initializing Hosting, path to the index.html is `./dist/index.html`.
