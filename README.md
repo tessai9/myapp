@@ -1,6 +1,7 @@
 # environment
 
 | software | version |
+|---       |---      |
 | node     | 11.6.0  |
 | npm      | 6.7.0   |
 | firebase | 6.1.1   |
