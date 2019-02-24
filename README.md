@@ -1,3 +1,9 @@
+# environment
+node : 11.6.0
+npm : 6.7.0
+firebase : 6.1.1
+vue : 2.9.6
+
 # myapp
 
 > 個人的に推してるvtuber一覧
