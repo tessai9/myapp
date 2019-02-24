@@ -1,3 +1,8 @@
+# myapp
+
+> 個人的に推してるvtuber一覧
+> Firebase + Vue.jsのテストサイト
+
 # environment
 
 | software | version |
@@ -6,11 +11,6 @@
 | npm      | 6.7.0   |
 | firebase | 6.1.1   |
 | vue      | 2.9.6   |
-
-# myapp
-
-> 個人的に推してるvtuber一覧
-> Firebase + Vue.jsのテストサイト
 
 ## Build Setup
 
