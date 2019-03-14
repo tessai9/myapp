@@ -4,10 +4,13 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import firebase from 'firebase'
+import axios from 'axios'
 
 Vue.config.productionTip = false
-var getConfigInfo = require('./firebase.env')
-var firebaseConfig = {
+Vue.prototype.$axios = axios
+
+let getConfigInfo = require('./firebase.env')
+let firebaseConfig = {
   apiKey: getConfigInfo.firebaseInit.apiKey,
   authDomain: getConfigInfo.firebaseInit.authDomain,
   databaseURL: getConfigInfo.firebaseInit.databaseURL,
