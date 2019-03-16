@@ -7,6 +7,8 @@
         <a :href='item.channel' target="_blank"><ion-icon name="logo-youtube" style="font-size: 50px;"></ion-icon></a>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <a :href='item.homepage' target="_blank"><ion-icon name="home" style="font-size: 50px;"></ion-icon></a>
+        <br>
+        <img :src='item.newvideoimg'>
       </div>
     </div>  <!-- end of card -->
   </div>  <!-- end of container -->
@@ -42,6 +44,9 @@ export default {
           n++
         }
       })
+    for (let item in self.vtubersList) {
+      self.getNewVideoImg(item)
+    }
     console.log(self.vtubersList)
   },
   methods: {
