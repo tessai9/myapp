@@ -12,6 +12,7 @@ firebase.json
 .firebaserc
 .firebase
 package.json
+/config/
 
 # Editor directories and files
 .idea
